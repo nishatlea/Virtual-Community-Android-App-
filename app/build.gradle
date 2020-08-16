@@ -1,0 +1,97 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.loginapp.creativeteam.tn.loginapplication"
+        minSdkVersion 19
+        targetSdkVersion 28
+        versionCode 1
+        multiDexEnabled true
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+    buildToolsVersion = '28.0.3'
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //noinspection GradleCompatible
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
+
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.navigation:navigation-fragment:2.0.0'
+    implementation 'androidx.navigation:navigation-ui:2.0.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    implementation 'com.github.parse-community.Parse-SDK-Android:parse:1.21.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.8.1'
+    implementation 'com.google.android.gms:play-services-maps:16.1.0'
+    implementation 'com.google.android.gms:play-services-location:16.0.0'
+    //Circle Image
+    //implementation files('libs/gson-2.2.4.jar')
+    // implementation 'com.google.firebase:firebase-core:17.2.1'
+    // implementation 'com.google.firebase:firebase-database:19.1.0'
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    //implementation 'com.firebaseui:firebase-ui-database:4.2.1'
+    // implementation 'com.google.firebase:firebase-analytics:17.2.1'
+    implementation 'com.rengwuxian.materialedittext:library:2.1.4'
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'com.github.bumptech.glide:glide:4.8.0'
+    implementation 'com.google.firebase:firebase-core:16.0.8'       //Analytics
+
+    //implementation 'com.google.firebase:firebase-messaging:17.5.0'
+    implementation 'com.android.volley:volley:1.1.1'
+    //implementation 'com.google.firebase:firebase-auth:19.1.0'
+    //implementation 'com.google.firebase:firebase-storage:19.1.0'
+    //implementation 'com.google.firebase:firebase-firestore:21.2.1'
+    //implementation 'com.google.firebase:firebase-messaging:20.0.0'
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation "com.github.parse-community.Parse-SDK-Android:fcm:1.21.0"
+    implementation 'com.parse.bolts:bolts-android:1.4.0'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation 'com.google.firebase:firebase-core:16.0.4'
+    implementation 'com.google.firebase:firebase-messaging:17.0.3'
+    implementation 'com.firebaseui:firebase-ui-database:4.2.1'
+    implementation 'com.google.firebase:firebase-database:16.0.4'
+    implementation 'com.google.firebase:firebase-firestore:17.1.2'
+    implementation 'com.google.firebase:firebase-storage:16.0.4'
+    implementation 'com.google.firebase:firebase-auth:16.0.5'
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.android.support:support-v4:25.3.0'
+    //implementation 'com.android.support:recyclerview-v4:25.3.0'
+    //implementation 'androidx.recyclerview:recyclerview:1.1.0-rc01'
+    //implementation 'com.android.support:cardview-v7:27.1.1'
+    //implementation 'com.rengwuxian.materialedittext:library:2.1.4'
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+}
+
+repositories {
+    mavenCentral()
+    jcenter()
+    maven { url 'https://jitpack.io' }
+}
+apply plugin: 'com.google.gms.google-services'

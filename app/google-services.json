@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "577175213376",
+    "firebase_url": "https://parse-login-ui-android-master.firebaseio.com",
+    "project_id": "parse-login-ui-android-master",
+    "storage_bucket": "parse-login-ui-android-master.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577175213376:android:f70ad94c96d9e4937c96a5",
+        "android_client_info": {
+          "package_name": "com.loginapp.creativeteam.tn.loginapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577175213376-8h320kfgq7spg87iqacl80l1trb5ogne.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.loginapp.creativeteam.tn.loginapplication",
+            "certificate_hash": "3a02d17517c629948a21bb3ae2024454114e62d5"
+          }
+        },
+        {
+          "client_id": "577175213376-i1vpnb7b29emnnp743f60jbvopksousq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBquwLYFN3tyVoVtyral1eyVHjJ7ZzU1gg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577175213376-i1vpnb7b29emnnp743f60jbvopksousq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

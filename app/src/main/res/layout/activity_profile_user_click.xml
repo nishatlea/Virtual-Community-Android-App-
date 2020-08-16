@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Profile_user_click">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/header_cover_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:background="@color/colorWhite" />
+
+        <ImageButton
+            android:id="@+id/user_profile_photo"
+            android:layout_width="500dp"
+            android:layout_height="120dp"
+            android:layout_below="@+id/header_cover_image"
+            android:layout_marginTop="-158dp"
+            android:background="@drawable/virtual_community"
+            android:elevation="5dp"
+            android:padding="20dp"
+            android:scaleType="centerCrop" />
+
+        <RelativeLayout
+            android:id="@+id/profile_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header_cover_image"
+            android:background="#ebca0707"
+            android:elevation="4dp"
+            android:paddingBottom="24dp">
+
+
+
+
+
+            <TextView
+                android:id="@+id/user_profile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="76dp"
+                android:text="person name"
+                android:textColor="#fff"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/project_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/user_profile_name"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp"
+                android:text="organization name"
+                android:textColor="#fff"
+                android:textSize="14sp" />
+
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profile_layout"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+            <TextView
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:background="#ebca0707"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="Project Prototype" />
+
+
+            <TextView
+                android:id="@+id/project_idea"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#ebca0707"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="Profile" />
+
+
+            <TextView
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:background="#ebca0707"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="Project Description" />
+
+
+            <TextView
+                android:id="@+id/product_description"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#ebca0707"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="Profile" />
+
+            <TextView
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:background="#ebca0707"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="Used Technology" />
+
+
+            <TextView
+                android:id="@+id/used_technology"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#ebca0707"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="Profile" />
+            <TextView
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:background="#ebca0707"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="How Our Product is Different" />
+
+
+            <TextView
+                android:id="@+id/uniqueness"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#ebca0707"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="Profile" />
+            <TextView
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:background="#ebca0707"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="Evaluation In Current Market Condition" />
+
+
+            <TextView
+                android:id="@+id/evaluation_current_market"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#ebca0707"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="Profile" />
+            <TextView
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:background="#ebca0707"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="Using Procedure" />
+
+
+
+            <TextView
+                android:id="@+id/using_procedure"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#ebca0707"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="Profile" />
+            <TextView
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:background="#ebca0707"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="Target Audience" />
+
+
+            <TextView
+                android:id="@+id/product_audience"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#ebca0707"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="Profile" />
+            <TextView
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:background="#ebca0707"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="Success rate In Current Market" />
+
+
+            <TextView
+                android:id="@+id/success_rate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#ebca0707"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="Profile" />
+            <TextView
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:background="#ebca0707"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="Spend Resources on Product" />
+
+
+            <TextView
+                android:id="@+id/spend_resource"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#ebca0707"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="Profile" />
+            <TextView
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:background="#ebca0707"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="Required Resource for Development" />
+
+
+            <TextView
+                android:id="@+id/required_resource"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#ebca0707"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="Profile" />
+            <TextView
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:background="#ebca0707"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="Percentage of Utilization of Required Resource" />
+
+
+            <TextView
+                android:id="@+id/utilization_method"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#ebca0707"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="Profile" />
+            <TextView
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:background="#ebca0707"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="Percentage of Stock" />
+
+
+            <TextView
+                android:id="@+id/stock_percentage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#fff"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#ebca0707"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:text="Profile" />
+
+
+            <Button
+                android:layout_marginHorizontal="20dp"
+                android:id="@+id/button_ques"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_background"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:layout_marginBottom="15dp"
+                android:text="Ask a Question"
+                />
+            <Button
+
+                android:layout_marginHorizontal="20dp"
+                android:id="@+id/button_investor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_background"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:layout_marginBottom="15dp"
+                android:text="Invest"
+                />
+
+            <Button
+
+                android:layout_marginHorizontal="20dp"
+                android:id="@+id/back_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_background"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:layout_marginBottom="15dp"
+                android:text="Back To Home"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Investor">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:text="Invest In Great Ideas"
+        android:paddingTop="60dp"
+        android:textSize="25dp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginBottom="100dp"
+
+        />
+
+
+
+    <EditText
+        android:id="@+id/invest_money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="Enter Amount of Money for invest"
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="25dp"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/profit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="Enter Rate of interest "
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="25dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/invest_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"
+        android:text="Next"
+        />
+
+</LinearLayout>

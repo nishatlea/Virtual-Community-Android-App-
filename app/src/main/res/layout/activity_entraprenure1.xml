@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:fillViewport="true"
+
+    ><TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#ebca0707"
+        android:gravity="center_horizontal"
+        android:text="Project Prototype"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textAlignment="gravity"
+        android:paddingTop="30dp"
+        android:textSize="25dp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginBottom="20dp"
+
+        />
+    <EditText
+        android:id="@+id/project_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginHorizontal="20dp"
+        android:inputType="textLongMessage"
+        android:hint="Name of your project"
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="25dp"
+        android:padding="10dp"/>
+
+
+    <EditText
+        android:id="@+id/project_idea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginHorizontal="20dp"
+        android:inputType="textLongMessage"
+        android:hint="Idea/Model of your project"
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="25dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/product_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Product Or Company Description"
+        android:inputType="textLongMessage"
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="25dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/used_technology"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Used Technology In Making the Product"
+        android:inputType="textLongMessage"
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="25dp"
+        android:padding="10dp"/>
+
+
+
+    <EditText
+        android:id="@+id/uniqueness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textLongMessage"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Uniqueness Of your Idea"
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="25dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/evaluation_current_market"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginHorizontal="20dp"
+        android:inputType="textLongMessage"
+        android:hint="Evaluation In Current Market Condition"
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="25dp"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/using_procedure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginHorizontal="20dp"
+        android:inputType="textLongMessage"
+        android:hint="Procedure Of Using Product"
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="25dp"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/product_audience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginHorizontal="20dp"
+        android:inputType="textLongMessage"
+        android:hint="Audience for Product"
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="25dp"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/success_rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginHorizontal="20dp"
+        android:inputType="textLongMessage"
+        android:hint="Expected Output With Respect to Input Ratio"
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="25dp"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#ebca0707"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="Resource Evaluation"
+        android:fontFamily="casual"
+        android:textAlignment="gravity"
+        android:paddingTop="30dp"
+        android:textSize="25dp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginBottom="20dp"
+
+        />
+
+
+    <EditText
+        android:id="@+id/spend_resource"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Monetary Value Of Spend resources for your project"
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="25dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/required_resource"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginHorizontal="20dp"
+        android:inputType="numberDecimal"
+        android:hint="Required Resource For Enhancement of the Project"
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="25dp"
+        android:padding="10dp"/>
+
+
+
+    <EditText
+        android:id="@+id/utilization_method"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginHorizontal="20dp"
+        android:inputType="textLongMessage"
+        android:hint="Utilization Sector Of required Resource..example:12% on safety,34% on Security"
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="25dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/stock_percentage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="Percentage of Stock"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="25dp"
+        android:padding="10dp"/>
+
+
+    <Button
+        android:layout_marginHorizontal="20dp"
+        android:id="@+id/cnext_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"
+        android:text="Submit"
+        />
+</TableLayout>
+
+</ScrollView>
